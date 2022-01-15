@@ -9,14 +9,20 @@
 <body>
     <h1>Git commands</h1>
     <ul>
-        <li>git init</li>
-        <li>git status</li>
-        <li>git add .</li>
-        <li>git commit -m "fist commit"</li>
-        <li>git log</li>
-        <li>git checkout commit_hash</li>
-        <li>git checkout master</li>
-        <li>git rm --cached file.foo</li>
+        <li title="create a local repo">git init</li>
+        <li title="check state">git status</li>
+        <li title="add to stage">git add .</li>
+        <li title="send from stage to repo">git commit -m "fist commit"</li>
+        <li title="check log of all commits">git log</li>
+        <li title="back to a commit">git checkout commit_hash</li>
+        <li title="back to las head">git checkout master</li>
+        <li title="tracked file => untracked">git rm --cached file.foo</li>
+        <li title="only untracked files can be added to">.gitignore</li>
+        <li title="go to .ssh folder to see key files">cd ~/.ssh</li>
+        <li title="create ssh key">ssh-keygen -t rsa -C "yaser.obeid@hotmail.com"</li>
+        <li title="create branch 'main'">git branch -M main</li>
+        <li title="define remote repo 'origin'">git remote add origin git_url</li>
+        <li title="upload 'main' to 'origin'">git push -u origin main</li>
     </ul>
     
 </body>
